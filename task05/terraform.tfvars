@@ -24,5 +24,5 @@ traffic_manager = {
 
 allow_ip_rule_name = "allow-ip"
 allow_tm_rule_name = "allow-tm"
-verification_ip    = "18.153.146.156"
+verification_ip    = "18.153.146.156/32"
 
