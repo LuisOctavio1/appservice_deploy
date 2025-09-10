@@ -3,7 +3,7 @@ resource "azurerm_windows_web_app" "this" {
   resource_group_name = var.resource_group
   service_plan_id     = var.service_plan_id
   location            = var.location
-  https_only          = true
+  https_only          = false
   tags                = var.tags
   site_config {
     always_on = true
